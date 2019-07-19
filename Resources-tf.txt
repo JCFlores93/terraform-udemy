@@ -1,0 +1,42 @@
+Single line comment 
+    #
+Multiline comment 
+    /* and */
+Assign values 
+    'key = value'
+Strings are double quotes 
+    "strings" - can insert new values when wrapped in ${}
+Multiline strings can user shell-style
+    <<EOF and end with EOF>>
+Boolean values are: 
+    true & false
+Make lists
+    ["foo", "foo", "foo"]
+Make map
+    {"foo": "bar", "bar": "baz"}
+
+- Common executions
+    Reinstall modules in directory
+        ```terraform init -upgrade_Basic_commands_and_execution```
+    Apply without plan
+        ```terraform apply```
+    Build execution plan separately
+        ```terraform plan```
+    Create plan output
+        ```terraform plan -out=path```
+    Destroy
+        Create destroy plan
+            terraform plan -out destroy-plan
+        Execute destroy plan 
+            terraform apply destroy-plan
+        Destroy without plan
+            terraform destroy
+    Refresh and show
+        terraform resfresh
+    Display knwon state 
+        terraform show
+    Validate
+        terraform Validate
+    Execute plan
+        terraform appy plan
+
