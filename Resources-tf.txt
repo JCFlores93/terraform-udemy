@@ -40,3 +40,11 @@ Make map
     Execute plan
         terraform appy plan
 
+Providers manage the lifecycle of a resource:
+create, read, update and delete
+ex. docker, kubernetes, aws ...
+
+terraform init allow us to initialize all providers.
+terraform init if we add a new provider.
+
+terraform apply -var-file
