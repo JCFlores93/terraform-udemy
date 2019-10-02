@@ -48,3 +48,10 @@ terraform init allow us to initialize all providers.
 terraform init if we add a new provider.
 
 terraform apply -var-file
+
+#Send a varible inline
+terraform plan -var amitype='ami-0b69ea66ff7391e80'
+terraform apply -var amitype='ami-0b69ea66ff7391e80'
+
+# To retrieve the output
+terraform output pubip 
